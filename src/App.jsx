@@ -13,7 +13,7 @@ function App() {
 
       <h1 className='text-3xl font-bold'>Coffee : {loadedCoffee.length}</h1>
 
-      <div>
+      <div className='grid grid-cols-1 md:grid-cols-2'>
         {
           loadedCoffee.map(coffee =>
              <CoffeeCard
